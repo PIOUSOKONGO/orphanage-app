@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDashBoardActivity">
+
+    <RelativeLayout
+        android:background="#E43E09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+
+                        android:background="#FFC107"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="center"
+                            android:id="@+id/imageone"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+                    </RelativeLayout>
+                    <ImageView
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="center"
+                        android:id="@+id/imagetwo"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/loginbutton"
+                    android:text="Donation Records"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#FF5722"></Button>
+                <ImageView
+
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="center"
+                    android:id="@+id/imagethree"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:id="@+id/imagefour"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:scaleType="center"
+            android:id="@+id/imagefive"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+        android:id="@+id/imagevsix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+</RelativeLayout>
